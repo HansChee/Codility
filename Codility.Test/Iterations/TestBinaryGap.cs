@@ -1,7 +1,7 @@
-using Codility.Algorithm;
+using Codility.Algorithm.Iterations;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace Codility.Test
+namespace Codility.Test.Iterations
 {
     [TestClass]
     public class TestBinaryGap

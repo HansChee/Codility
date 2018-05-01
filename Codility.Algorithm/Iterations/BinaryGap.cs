@@ -1,10 +1,10 @@
 ﻿/**
- * https://app.codility.com/programmers/lessons/1-iterations/
+ * https://app.codility.com/programmers/lessons/1-iterations/binary_gap/
  */
 
 using System;
 
-namespace Codility.Algorithm
+namespace Codility.Algorithm.Iterations
 {
     public partial class Solution
     {
