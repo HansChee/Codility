@@ -14,11 +14,21 @@ namespace Codility.Test.CountingElements
         [TestMethod]
         public void TestSampleCase()
         {
-            //A = new int[] { 4, 1, 3, 2 };
+            A = new int[] { 4, 1, 3, 2 };
 
-            //var result = Solution.PermCheck(A);
+            var result = Solution.PermCheck(A);
 
-            //Assert.AreEqual(0, result);
+            Assert.AreEqual(1, result);
+        }
+
+        [TestMethod]
+        public void TestSampleCase1()
+        {
+            A = new int[] { 4, 1, 3 };
+
+            var result = Solution.PermCheck(A);
+
+            Assert.AreEqual(0, result);
         }
     }
 }
