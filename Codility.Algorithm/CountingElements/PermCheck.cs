@@ -2,9 +2,6 @@
  * https://app.codility.com/programmers/lessons/4-counting_elements/perm_check/
  * */
 
-using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace Codility.Algorithm.CountingElements
 {

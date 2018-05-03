@@ -20,7 +20,7 @@ namespace Codility.Test.CountingElements
 
             var result = Solution.FrogRiverOne(X, A);
 
-            //Assert.AreEqual()
+            Assert.AreEqual(6, result);
         }
     }
 }

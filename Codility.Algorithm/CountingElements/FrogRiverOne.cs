@@ -1,6 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿/**
+ * https://app.codility.com/programmers/lessons/4-counting_elements/frog_river_one/
+ * */
 
 namespace Codility.Algorithm.CountingElements
 {
@@ -8,8 +8,22 @@ namespace Codility.Algorithm.CountingElements
     {
         public static int FrogRiverOne(int X, int[] A)
         {
+            bool[] B = new bool[X + 1];
 
-            return 1;
+            for (int i = 0; i < A.Length; i++)
+            {
+                if (!B[A[i]])
+                {
+                    B[A[i]] = true;
+                    X--;
+                    if (X == 0)
+                    {
+                        return i;
+                    }
+                }
+            }
+
+            return -1;
         }
     }
 }
