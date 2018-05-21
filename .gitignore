@@ -259,3 +259,5 @@ paket-files/
 # Python Tools for Visual Studio (PTVS)
 __pycache__/
 *.pyc
+/Codility.Algorithm/CountingElements/MaxCounters.cs
+/Codility.Test/CountingElements/TestMaxCounters.cs

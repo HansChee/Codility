@@ -1,6 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿/**
+ * https://app.codility.com/programmers/lessons/4-counting_elements/missing_integer/
+ * */
 
 namespace Codility.Algorithm.CountingElements
 {
