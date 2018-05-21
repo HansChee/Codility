@@ -6,7 +6,7 @@ namespace Codility.Algorithm.CountingElements
 {
     public partial class Solution
     {
-        public static int MissingInteger(int[] A)
+        public int MissingInteger(int[] A)
         {
             bool[] B = new bool[A.Length + 1];
 

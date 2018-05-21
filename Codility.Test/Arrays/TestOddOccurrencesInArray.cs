@@ -10,13 +10,14 @@ namespace Codility.Test.Arrays
     public class TestOddOccurrencesInArray
     {
         int[] A;
+        Solution solution = new Solution();
 
         [TestMethod]
         public void TestSample()
         {
             A = new int[] { 4, 7, 4, 5, 7 };
 
-            var result = Solution.OddOccurrencesInArray(A);
+            var result = solution.OddOccurrencesInArray(A);
 
             Assert.AreEqual(5, result);
         }

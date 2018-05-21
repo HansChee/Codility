@@ -10,13 +10,14 @@ namespace Codility.Test.CountingElements
     public class TestMissingInteger
     {
         int[] A;
+        Solution solution = new Solution();
 
         [TestMethod]
         public void TestSample()
         {
             A = new int[] { 1, 3, 6, 4, 1, 2 };
 
-            var result = Solution.MissingInteger(A);
+            var result = solution.MissingInteger(A);
 
             Assert.AreEqual(5, result);
         }
@@ -26,7 +27,7 @@ namespace Codility.Test.CountingElements
         {
             A = new int[] { 1, 2, 3 };
 
-            var result = Solution.MissingInteger(A);
+            var result = solution.MissingInteger(A);
 
             Assert.AreEqual(4, result);
         }
@@ -36,7 +37,7 @@ namespace Codility.Test.CountingElements
         {
             A = new int[] { -1, -3 };
 
-            var result = Solution.MissingInteger(A);
+            var result = solution.MissingInteger(A);
 
             Assert.AreEqual(1, result);
         }

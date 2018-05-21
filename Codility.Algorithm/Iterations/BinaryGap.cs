@@ -8,7 +8,7 @@ namespace Codility.Algorithm.Iterations
 {
     public partial class Solution
     {
-        public static int BinaryGap(int N)
+        public int BinaryGap(int N)
         {
             if (N <= 0)
             {

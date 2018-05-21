@@ -11,7 +11,7 @@ namespace Codility.Algorithm.Arrays
 {
     public partial class Solution
     {
-        public static int OddOccurrencesInArray(int[] A)
+        public int OddOccurrencesInArray(int[] A)
         {
             if (A.Length == 1)
             {

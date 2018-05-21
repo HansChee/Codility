@@ -9,7 +9,7 @@ namespace Codility.Algorithm.TimeComplexity
 {
     public partial class Solution
     {
-        public static int TapeEquilibrium(int[] A)
+        public int TapeEquilibrium(int[] A)
         {
             var sum = A.Sum();
             int minSum = 0;

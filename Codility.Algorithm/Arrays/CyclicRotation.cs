@@ -6,7 +6,7 @@ namespace Codility.Algorithm.Arrays
 {
     public partial class Solution
     {
-        public static int[] CyclicRotation(int[] A, int K)
+        public int[] CyclicRotation(int[] A, int K)
         {
             if (A?.Length > 0)
             {

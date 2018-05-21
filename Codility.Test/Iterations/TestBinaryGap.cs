@@ -8,6 +8,7 @@ namespace Codility.Test.Iterations
     {
         int N;
         int gap;
+        Solution solution = new Solution();
 
         [TestMethod]
         public void TestExample1()
@@ -16,7 +17,7 @@ namespace Codility.Test.Iterations
             N = 1041;
 
             // excute
-            gap = Solution.BinaryGap(N);
+            gap = solution.BinaryGap(N);
 
             // compare
             Assert.AreEqual(5, gap);
@@ -27,7 +28,7 @@ namespace Codility.Test.Iterations
         {
             N = 15;
 
-            gap = Solution.BinaryGap(N);
+            gap = solution.BinaryGap(N);
 
             Assert.AreEqual(0, gap);
         }
@@ -39,7 +40,7 @@ namespace Codility.Test.Iterations
             N = 2147483647;
 
             // excute
-            gap = Solution.BinaryGap(N);
+            gap = solution.BinaryGap(N);
 
             // compare
             Assert.AreEqual(0, gap);
@@ -52,7 +53,7 @@ namespace Codility.Test.Iterations
             N = 1610612737;
 
             // excute
-            gap = Solution.BinaryGap(N);
+            gap = solution.BinaryGap(N);
 
             // compare
             Assert.AreEqual(28, gap);

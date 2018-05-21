@@ -6,7 +6,7 @@ namespace Codility.Algorithm.CountingElements
 {
     public partial class Solution
     {
-        public static int FrogRiverOne(int X, int[] A)
+        public int FrogRiverOne(int X, int[] A)
         {
             bool[] B = new bool[X + 1];
 

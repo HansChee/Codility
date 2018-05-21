@@ -7,7 +7,7 @@ namespace Codility.Algorithm.CountingElements
 {
     public partial class Solution
     {
-        public static int PermCheck(int[] A)
+        public int PermCheck(int[] A)
         {
             int[] B = new int[A.Length + 1];
             foreach (var item in A)

@@ -8,6 +8,7 @@ namespace Codility.Test.CountingElements
     {
         int[] A;
         int X;
+        Solution solution = new Solution();
 
         [TestMethod]
         public void TestSample()
@@ -15,7 +16,7 @@ namespace Codility.Test.CountingElements
             X = 5;
             A = new int[] { 1, 3, 1, 4, 2, 3, 5, 4 };
 
-            var result = Solution.FrogRiverOne(X, A);
+            var result = solution.FrogRiverOne(X, A);
 
             Assert.AreEqual(6, result);
         }

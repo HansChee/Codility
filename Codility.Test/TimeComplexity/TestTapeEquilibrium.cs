@@ -1,4 +1,5 @@
-﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
+﻿using Codility.Algorithm.CountingElements;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace Codility.Test.TimeComplexity
 {
@@ -6,6 +7,7 @@ namespace Codility.Test.TimeComplexity
     public class TestTapeEquilibrium
     {
         int[] A;
+        Solution solution = new Solution();
 
         [TestMethod]
         public void TestSample()
