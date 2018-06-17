@@ -2,15 +2,33 @@
 * https://app.codility.com/programmers/lessons/5-prefix_sums/count_div/
 * */
 
-using System;
 
 namespace Codility.Algorithm.PrefixSums
 {
     public partial class Solution
     {
-        public static int CountDiv(int A, int B, int K)
+        public int CountDiv(int A, int B, int K)
         {
-            throw new NotImplementedException();
+            int result = 0;
+
+            while (true)
+            {
+                if (A > B)
+                {
+                    break;
+                }
+                if (A % K == 0)
+                {
+                    result++;
+                    A += K;
+                }
+                else
+                {
+                    A++;
+                }
+            }
+
+            return result;
         }
     }
 }
