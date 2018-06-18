@@ -6,7 +6,7 @@ namespace Codility.Test.TimeComplexity
     [TestClass]
     public class TestTapeEquilibrium
     {
-        int[] A;
+        //int[] A;
         Solution solution = new Solution();
 
         [TestMethod]

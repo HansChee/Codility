@@ -11,22 +11,9 @@ namespace Codility.Algorithm.PrefixSums
         {
             int result = 0;
 
-            while (true)
-            {
-                if (A > B)
-                {
-                    break;
-                }
-                if (A % K == 0)
-                {
-                    result++;
-                    A += K;
-                }
-                else
-                {
-                    A++;
-                }
-            }
+            int i1 = A / K;
+            int i2 = B / K;
+            result = i2 - i1 + (A % K == 0 ? 1 : 0);
 
             return result;
         }

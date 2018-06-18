@@ -40,12 +40,12 @@ namespace Codility.Test.PrefixSums
         public void TestBigValue()
         {
             A = 0;
-            B = int.MaxValue;
-            K = int.MaxValue / 2;
+            B = 2000000000;
+            K = 2000000000 / 2;
 
             var result = solution.CountDiv(A, B, K);
 
-            Assert.AreEqual(2, result);
+            Assert.AreEqual(3, result);
         }
     }
 }
