@@ -1,6 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿/**
+ * https://app.codility.com/programmers/lessons/8-leader/dominator/
+ */
 
 namespace Codility.Algorithm.Leader
 {
